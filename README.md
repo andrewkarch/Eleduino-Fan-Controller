@@ -14,8 +14,8 @@ Open your rc.local file
 
 > sudo nano /etc/rc.local
 
-Add this line to your /etc/rc.local If you didn't change the working directory (cd) when downloading the script, the directory will be  be /home/pi/Eleduino-Fan-Controller
+Add this line to your /etc/rc.local If you didn't change the working directory (cd) when downloading the script, the directory will be /home/pi/Eleduino-Fan-Controller
 
 > sudo python /directory/to/fanController.py &
 
-Reboot and the fan will now turn on if the temperature gets above 45C. To change the temperature open the script in leafpad, and change maxTemp to the temperature you want the fan to turn on at in Celcius.
+Reboot and the fan will now turn on if the temperature gets above 45C. To change the temperature open the script in leafpad, and change maxTemp to the temperature you want the fan to turn on at in Celsius.
